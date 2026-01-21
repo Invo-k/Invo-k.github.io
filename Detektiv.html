@@ -34,11 +34,12 @@
   </div>
   
 <script>
+<script>
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
   const closeBtn = document.getElementById('close-lightbox');
 
-  const zoomImages = document.querySelectorAll('.zoom');
+  const zoomImages = document.querySelectorAll('.zoomable');
 
   zoomImages.forEach(img => {
     img.addEventListener('click', () => {
@@ -47,56 +48,17 @@
     });
   });
 
-  closeBtn.addEventListener('click', closeLightbox);
-
+  closeBtn.addEventListener('click', () => {
+    lightbox.classList.remove('active');
+  });
 
   lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) {
-      closeLightbox();
+      lightbox.classList.remove('active');
     }
   });
+</script>
 
-  
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
-      closeLightbox();
-    }
-  });
-
-
-  let magnifierActive = false;
-
-  lightboxImg.addEventListener('click', (e) => {
-  magnifierActive = !magnifierActive;
-
-  if (magnifierActive) {
-    lightboxImg.classList.add('zoomed');
-  } else {
-    lightboxImg.classList.remove('zoomed');
-    lightboxImg.style.transformOrigin = 'center center';
-  }
-
-  e.stopPropagation(); // evita cerrar el lightbox
-});
-
-  lightboxImg.addEventListener('mousemove', (e) => {
-  if (!magnifierActive) return;
-
-  const rect = lightboxImg.getBoundingClientRect();
-  const x = ((e.clientX - rect.left) / rect.width) * 100;
-  const y = ((e.clientY - rect.top) / rect.height) * 100;
-
-  lightboxImg.style.transformOrigin = `${x}% ${y}%`;
-});
-
-  function closeLightbox() {
-  lightbox.classList.remove('active');
-  magnifierActive = false;
-  lightboxImg.classList.remove('zoomed');
-  lightboxImg.style.transformOrigin = 'center center';
-}
-
-  
 </script>
 
 
