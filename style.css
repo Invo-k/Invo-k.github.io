@@ -59,20 +59,5 @@ img {
 }
 
 
-/* Contenedor con GIF y audio uno al lado del otro */
-.gif_audio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-  gap: 30px;
-}
-
-/* Ajustes del GIF */
-#gif_audio img {
-  width: 120px;
-  height: auto;
-}
-
 
 
