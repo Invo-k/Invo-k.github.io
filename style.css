@@ -75,9 +75,10 @@ img {
 
 /* Imagen ampliada */
 #lightbox-img {
-  max-width: 90%;
-  max-height: 90%;
-  border: 3px solid white;
+  max-width: none;
+  max-height: none;
+  width: 80vw;      /* ancho grande */
+  height: auto;
   image-rendering: pixelated;
 
   transform: scale(0.8);
@@ -108,4 +109,15 @@ img {
   color: yellow;
 }
 
+/* Cursor tipo lupa */
+#lightbox-img.zoomed {
+  cursor: zoom-out;
+  transform: scale(2); /* nivel de lupa */
+}
+
+/* Por defecto */
+#lightbox-img {
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
 
