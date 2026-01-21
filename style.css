@@ -106,4 +106,13 @@ img {
 }
 
 
+.text-section {
+  font-size: 16px;      /* tamaño de fuente */
+  line-height: 1.6;     /* altura de línea para mejor lectura */
+  color: white;         /* color del texto */
+  margin: 20px auto;    /* separación alrededor del bloque */
+  max-width: 800px;     /* opcional: ancho máximo para que no se extienda demasiado */
+  text-align: left;     /* opcional: alineación a la izquierda */
+}
+
 
