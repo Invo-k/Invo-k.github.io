@@ -105,15 +105,5 @@ img {
   color: yellow;
 }
 
-/* Cursor tipo lupa */
-#lightbox-img.zoomed {
-  cursor: zoom-out;
-  transform: scale(2); /* nivel de lupa */
-}
 
-/* Por defecto */
-#lightbox-img {
-  cursor: zoom-in;
-  transition: transform 0.3s ease;
-}
 
