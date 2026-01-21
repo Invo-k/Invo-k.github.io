@@ -111,7 +111,7 @@ img {
   line-height: 1.6;     /* altura de línea para mejor lectura */
   color: white;         /* color del texto */
   margin: 20px auto;    /* separación alrededor del bloque */
-  max-width: 1200px;     /* opcional: ancho máximo para que no se extienda demasiado */
+  max-width: 1000px;     /* opcional: ancho máximo para que no se extienda demasiado, base 800 * )/
   text-align: left;     /* opcional: alineación a la izquierda */
 }
 
