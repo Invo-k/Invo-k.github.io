@@ -5,8 +5,18 @@ body {
   text-align: center;
 }
 
-InitialPage {
+.InitialPage {
   margin-top: 100px;
+}
+
+.link_yellow{
+  color: yellow;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.link_yellow:hover {
+  text-decoration: underline;
 }
 
 h1 {
