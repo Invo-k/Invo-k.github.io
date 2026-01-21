@@ -38,7 +38,7 @@
   const lightboxImg = document.getElementById('lightbox-img');
   const closeBtn = document.getElementById('close-lightbox');
 
-  const zoomImages = document.querySelectorAll('.zoomable');
+  const zoomImages = document.querySelectorAll('.zoom');
 
   zoomImages.forEach(img => {
     img.addEventListener('click', () => {
@@ -56,7 +56,14 @@
       lightbox.classList.remove('active');
     }
   });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      lightbox.classList.remove('active');
+    }
+  });
 </script>
+
 
 </body>
 </html>
