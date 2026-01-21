@@ -91,10 +91,6 @@ img {
   pointer-events: auto;
 }
 
-#lightbox.active #lightbox-img {
-  transform: scale(1);
-}
-
 /* Botón cerrar */
 #close-lightbox {
   position: absolute;
