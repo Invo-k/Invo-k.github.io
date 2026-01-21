@@ -36,6 +36,27 @@ img {
   image-rendering: pixelated;
 }
 
+.audio-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.audio-container h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.audio-container audio {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.audio-description {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #ccc;
+}
 
 
 
