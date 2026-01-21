@@ -58,40 +58,52 @@ img {
   color: #ccc;
 }
 
-
-/* Fondo y contenedor de la imagen ampliada */
+/* Lightbox base */
 #lightbox {
-  display: none; /* invisible por defecto */
   position: fixed;
-  z-index: 999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.8); /* fondo oscuro */
+  inset: 0;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
   justify-content: center;
   align-items: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 999;
 }
 
-/* Imagen centrada */
+/* Imagen ampliada */
 #lightbox-img {
   max-width: 90%;
   max-height: 90%;
   border: 3px solid white;
-  image-rendering: pixelated; /* si quieres estilo retro */
+  image-rendering: pixelated;
+
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
 }
 
-/* Botón de cerrar */
+/* Estado activo */
+#lightbox.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#lightbox.active #lightbox-img {
+  transform: scale(1);
+}
+
+/* Botón cerrar */
 #close-lightbox {
   position: absolute;
   top: 20px;
   right: 30px;
   color: white;
   font-size: 36px;
-  font-weight: bold;
   cursor: pointer;
 }
+
 #close-lightbox:hover {
   color: yellow;
 }
