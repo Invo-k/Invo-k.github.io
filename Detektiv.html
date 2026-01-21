@@ -25,42 +25,42 @@
     
     <img alt="Shaila and R Playing" src="/assets/images/start_point.jpg" class="zoom">
 
-   <!-- Lightbox -->
-    <div id="lightbox">
-      <span id="close-lightbox">&times;</span>
-      <img id="lightbox-img" src="" alt="Imagen ampliada">
-    </div>
-
   </div>
 
-<script>
-  // Script del zoom de imagenes
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-  const closeBtn = document.getElementById('close-lightbox');
-
-  // Todas las imágenes con clase zoom
-  const zoomImages = document.querySelectorAll('.zoom');
-
-  zoomImages.forEach(img => {
-    img.addEventListener('click', () => {
-      lightbox.style.display = 'flex';
-      lightboxImg.src = img.src; // mostrar la misma imagen
+   <!-- Lightbox -->
+  <div id="lightbox">
+    <span id="close-lightbox">&times;</span>
+    <img id="lightbox-img" src="" alt="Imagen ampliada">
+  </div>
+  
+  <script>
+    // Script del zoom de imagenes
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.getElementById('close-lightbox');
+  
+    // Todas las imágenes con clase zoom
+    const zoomImages = document.querySelectorAll('.zoom');
+  
+    zoomImages.forEach(img => {
+      img.addEventListener('click', () => {
+        lightbox.style.display = 'flex';
+        lightboxImg.src = img.src; // mostrar la misma imagen
+      });
     });
-  });
-
-  // Cerrar al hacer click en ×
-  closeBtn.addEventListener('click', () => {
-    lightbox.style.display = 'none';
-  });
-
-  // Cerrar al hacer click fuera de la imagen
-  lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox) {
+  
+    // Cerrar al hacer click en ×
+    closeBtn.addEventListener('click', () => {
       lightbox.style.display = 'none';
-    }
-  });
-</script>
+    });
+  
+    // Cerrar al hacer click fuera de la imagen
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.style.display = 'none';
+      }
+    });
+  </script>
 
 </body>
 </html>
