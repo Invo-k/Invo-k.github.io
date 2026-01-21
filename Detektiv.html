@@ -47,21 +47,22 @@
     });
   });
 
-  closeBtn.addEventListener('click', () => {
-    lightbox.classList.remove('active');
-  });
+  closeBtn.addEventListener('click', closeLightbox);
+
 
   lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) {
-      lightbox.classList.remove('active');
+      closeLightbox();
     }
   });
+
   
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && lightbox.classList.contains('active')) {
-      lightbox.classList.remove('active');
+      closeLightbox();
     }
   });
+
 
   let magnifierActive = false;
 
@@ -87,6 +88,14 @@
 
   lightboxImg.style.transformOrigin = `${x}% ${y}%`;
 });
+
+  function closeLightbox() {
+  lightbox.classList.remove('active');
+  magnifierActive = false;
+  lightboxImg.classList.remove('zoomed');
+  lightboxImg.style.transformOrigin = 'center center';
+}
+
   
 </script>
 
