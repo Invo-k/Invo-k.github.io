@@ -62,6 +62,32 @@
       lightbox.classList.remove('active');
     }
   });
+
+  let magnifierActive = false;
+
+  lightboxImg.addEventListener('click', (e) => {
+  magnifierActive = !magnifierActive;
+
+  if (magnifierActive) {
+    lightboxImg.classList.add('zoomed');
+  } else {
+    lightboxImg.classList.remove('zoomed');
+    lightboxImg.style.transformOrigin = 'center center';
+  }
+
+  e.stopPropagation(); // evita cerrar el lightbox
+});
+
+  lightboxImg.addEventListener('mousemove', (e) => {
+  if (!magnifierActive) return;
+
+  const rect = lightboxImg.getBoundingClientRect();
+  const x = ((e.clientX - rect.left) / rect.width) * 100;
+  const y = ((e.clientY - rect.top) / rect.height) * 100;
+
+  lightboxImg.style.transformOrigin = `${x}% ${y}%`;
+});
+  
 </script>
 
 
