@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: white;
-  font-family: Arial;
+  font-family: 'Press Start 2P', cursive;
   text-align: center;
 }
 
@@ -22,4 +22,9 @@ p {
 img {
   margin-top: 30px;
   width: 400px;
+  image-rendering: pixelated;
 }
+
+
+
+
