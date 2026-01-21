@@ -15,10 +15,6 @@ link_yellow{
   font-size: 16px;
 }
 
-.link_yellow:hover {
-  text-decoration: underline;
-}
-
 h1 {
   font-size: 48px;
   letter-spacing: 4px;
