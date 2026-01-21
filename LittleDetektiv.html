@@ -6,33 +6,6 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-
-// Gif Testing
-  
-<script>
-  // Enlazar elementos
-  const playerAudio = document.getElementById("playerAudio");
-  const gif = document.getElementById("Animgif");
-
-  // Ruta de la versión animada
-  const gifAnimatedSrc = "/assets/images/invo_dance.gif";
-
-  // Rutina cuando el audio empieza
-  playerAudio.onplay = () => {
-    gif.src = gifAnimatedSrc;
-  };
-
-  // Cuando el audio se pausa o termina
-  playerAudio.onpause = () => {
-    gif.src = "/assets/images/invo-static.png";
-  };
-  
-  playerAudio.onended = () => {
-    gif.src = "/assets/images/invo-static.png";
-  };
-</script>
-
-// End gif Testing
   
 <body>
 
@@ -40,16 +13,11 @@
     <h1>LITTLE DETEKTIV</h1>
     <p>Los primeros pasos para volverse un Gran Detective.</p>
 
-  <div class="gif_audio">
-
-  <!-- GIF estático (inicial) -->
-    <img src="/assets/images/invo_static.png" alt="InvoChikito" id="Animgif">
-    
   <div class="audio-container">
   
     <h2>♪ Titulo: Prueba</h2>
   
-    <audio controls id="playerAudio">
+    <audio controls>
       <source src="/assets/music/tvland_wip.mp3" type="audio/mpeg">
       Halp.
     </audio>
