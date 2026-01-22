@@ -107,7 +107,7 @@ img {
 
 
 .text-section {
-  font-size: 14px;      /* tamaño de fuente */
+  font-size: 12px;      /* tamaño de fuente */
   line-height: 1.6;     /* altura de línea para mejor lectura */
   color: white;         /* color del texto */
   margin: 20px auto;    /* separación alrededor del bloque */
