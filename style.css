@@ -110,12 +110,12 @@ img {
 
 
 .text-section {
-  font-size: 8px;              /* tamaño de letra cómodo de leer */
+  font-size: 4px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
   color: white;
 
   margin: 20px auto;            /* separación vertical y centrado */
-  padding: 0 30px;              /* espacio interno a los lados */
+  padding: 0 20px;              /* espacio interno a los lados */
 
   max-width: 680px;             /* ancho máximo del texto para buena lectura */
   text-align: left;             /* alineación real a la izquierda */
@@ -131,7 +131,7 @@ img {
 .text-section h3 {
   margin-top: 32px;
   margin-bottom: 16px;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: bold;
 }
 
