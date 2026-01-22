@@ -110,6 +110,7 @@ img {
 
 
 .text-section {
+  font-family: 'Share Tech Mono', monospace; /* fuente pixel-art legible */
   font-size: 8px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
   color: white;
