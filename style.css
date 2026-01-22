@@ -2,7 +2,7 @@ body {
   background-color: black;
   color: white;
   font-family: 'Press Start 2P', cursive;
-  text-align: center;
+  text-align: left;
 }
 
 .Tittle {
@@ -107,12 +107,29 @@ img {
 
 
 .text-section {
-  font-size: 12px;      /* tamaño de fuente */
-  line-height: 1.6;     /* altura de línea para mejor lectura */
-  color: white;         /* color del texto */
-  margin: 20px auto;    /* separación alrededor del bloque */
-  max-width: 1000px;     /* opcional: ancho máximo para que no se extienda demasiado, base 800 * )/
-  text-align: left;     /* opcional: alineación a la izquierda */
+  font-size: 12px;              /* tamaño de letra cómodo de leer */
+  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
+  color: white;
+
+  margin: 20px auto;            /* separación vertical y centrado */
+  padding: 0 30px;              /* espacio interno a los lados */
+
+  max-width: 680px;             /* ancho máximo del texto para buena lectura */
+  text-align: left;             /* alineación real a la izquierda */
+}
+
+/* Ajuste de párrafos */
+.text-section p {
+  margin-bottom: 24px;          /* espacio entre párrafos */
+}
+
+/* Títulos dentro del texto */
+.text-section h2,
+.text-section h3 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 
