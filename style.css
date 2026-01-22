@@ -110,7 +110,7 @@ img {
 
 
 .text-section {
-  font-size: 4px;              /* tamaño de letra cómodo de leer */
+  font-size: 8px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
   color: white;
 
@@ -131,7 +131,7 @@ img {
 .text-section h3 {
   margin-top: 32px;
   margin-bottom: 16px;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: bold;
 }
 
