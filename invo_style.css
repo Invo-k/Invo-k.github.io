@@ -1,0 +1,140 @@
+body {
+  background-color: orange;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  text-align: left;
+}
+
+.Tittle {
+  margin-top: 80px;
+  text-align: center;
+}
+
+
+.link_yellow,
+.link_yellow:visited,
+.link_yellow:hover,
+.link_yellow:active {
+  color: white;
+  font-family: 'Press Start 2P'
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  margin: 20px;
+}
+
+img {
+  display: block;
+  margin: 30px auto 0 auto;
+  width: 400px;
+  image-rendering: pixelated;
+}
+
+.audio-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.audio-container h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.audio-container audio {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.audio-description {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #ccc;
+}
+
+/* Lightbox base */
+#lightbox {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 999;
+}
+
+/* Imagen ampliada */
+#lightbox-img {
+  max-width: none;
+  max-height: none;
+  width: 80vw;      /* ancho grande */
+  height: auto;
+  image-rendering: pixelated;
+
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+/* Estado activo */
+#lightbox.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Botón cerrar */
+#close-lightbox {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#close-lightbox:hover {
+  color: yellow;
+}
+
+
+.text-section {
+  font-family: 'Share Tech Mono', monospace; /* fuente pixel-art legible */
+  font-size: 12px;              /* tamaño de letra cómodo de leer */
+  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
+  color: white;
+
+  margin: 20px auto;            /* separación vertical y centrado */
+  padding: 0 20px;              /* espacio interno a los lados */
+
+  max-width: 680px;             /* ancho máximo del texto para buena lectura */
+  text-align: left;             /* alineación real a la izquierda */
+}
+
+/* Ajuste de párrafos */
+.text-section p {
+  margin-bottom: 24px;          /* espacio entre párrafos */
+}
+
+/* Títulos dentro del texto */
+.text-section h2,
+.text-section h3 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
