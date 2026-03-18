@@ -1,6 +1,6 @@
 body {
   background-color: AntiqueWhite;
-  color: purple;
+  color: black;
   font-family: 'Press Start 2P', cursive;
   text-align: left;
 }
@@ -114,7 +114,7 @@ img {
   font-family: 'Share Tech Mono', monospace; /* fuente pixel-art legible */
   font-size: 12px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
-  color: white;
+  color: black;
 
   margin: 20px auto;            /* separación vertical y centrado */
   padding: 0 20px;              /* espacio interno a los lados */
