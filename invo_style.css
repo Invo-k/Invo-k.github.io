@@ -1,5 +1,5 @@
 body {
-  background-color: orange;
+  background-color: FFC496;
   color: white;
   font-family: 'Press Start 2P', cursive;
   text-align: left;
@@ -15,7 +15,7 @@ body {
 .link_yellow:visited,
 .link_yellow:hover,
 .link_yellow:active {
-  color: white;
+  color: purple;
   font-family: 'Press Start 2P'
   text-decoration: none;
   font-size: 16px;
