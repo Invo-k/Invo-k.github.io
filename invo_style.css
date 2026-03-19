@@ -11,10 +11,10 @@ body {
 }
 
 
-.link_yellow,
-.link_yellow:visited,
-.link_yellow:hover,
-.link_yellow:active {
+.color_link,
+.color_link:visited,
+.color_link:hover,
+.color_link:active {
   color: purple;
   font-family: 'Press Start 2P'
   text-decoration: none;
