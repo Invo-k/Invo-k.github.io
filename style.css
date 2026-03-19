@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: SpringGreen;
+  color: #64ff49;  /* verde */
   font-family: 'Press Start 2P', cursive;
   text-align: left;
 }
@@ -48,7 +48,7 @@ img {
 .audio-container h2 {
   font-size: 18px;
   margin-bottom: 15px;
-  color: white;
+  color: #64ff49;
 }
 
 .audio-container audio {
@@ -100,13 +100,13 @@ img {
   position: absolute;
   top: 20px;
   right: 30px;
-  color: white;
+  color: #64ff49; /* verde */
   font-size: 24px;
   cursor: pointer;
 }
 
 #close-lightbox:hover {
-  color: yellow;
+  color: #64ff49;
 }
 
 
@@ -114,7 +114,7 @@ img {
   font-family: 'Share Tech Mono', monospace; /* fuente pixel-art legible */
   font-size: 12px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
-  color: white;
+  color: #64ff49;  /* verde */
 
   margin: 20px auto;            /* separación vertical y centrado */
   padding: 0 20px;              /* espacio interno a los lados */
