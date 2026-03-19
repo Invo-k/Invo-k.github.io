@@ -137,4 +137,29 @@ img {
   font-weight: bold;
 }
 
+.secret_text-section {
+  font-family: 'Share Tech Mono', monospace; /* fuente pixel-art legible */
+  font-size: 12px;              /* tamaño de letra cómodo de leer */
+  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
+  color: black; 
 
+  margin: 20px auto;            /* separación vertical y centrado */
+  padding: 0 20px;              /* espacio interno a los lados */
+
+  max-width: 680px;             /* ancho máximo del texto para buena lectura */
+  text-align: left;             /* alineación real a la izquierda */
+}
+
+/* Ajuste de párrafos */
+.secret_text-section p {
+  margin-bottom: 24px;          /* espacio entre párrafos */
+}
+
+/* Títulos dentro del texto */
+.secret_text-section h2,
+.secret_text-section h3 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
