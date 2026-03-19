@@ -1,25 +1,9 @@
+/* General */
 body {
   background-color: AntiqueWhite;
   color: black;
   font-family: 'Press Start 2P', cursive;
   text-align: left;
-}
-
-.Tittle {
-  margin-top: 80px;
-  text-align: center;
-}
-
-
-.color_link,
-.color_link:visited,
-.color_link:hover,
-.color_link:active {
-  color: purple;
-  font-family: 'Press Start 2P'
-  text-decoration: none;
-  font-size: 16px;
-  text-align: center;
 }
 
 h1 {
@@ -33,12 +17,18 @@ p {
   margin: 20px;
 }
 
+/* Images */
+
 img {
   display: block;
   margin: 30px auto 0 auto;
   width: 400px;
   image-rendering: pixelated;
 }
+
+/* Classes */
+
+/* Audio */
 
 .audio-container {
   margin-top: 40px;
@@ -77,11 +67,10 @@ img {
   z-index: 999;
 }
 
-/* Imagen ampliada */
 #lightbox-img {
   max-width: none;
   max-height: none;
-  width: 80vw;      /* ancho grande */
+  width: 80vw;    
   height: auto;
   image-rendering: pixelated;
 
@@ -89,13 +78,11 @@ img {
   transition: transform 0.3s ease;
 }
 
-/* Estado activo */
 #lightbox.active {
   opacity: 1;
   pointer-events: auto;
 }
 
-/* Botón cerrar */
 #close-lightbox {
   position: absolute;
   top: 20px;
@@ -128,13 +115,14 @@ img {
   margin-bottom: 24px;          /* espacio entre párrafos */
 }
 
-/* Títulos dentro del texto */
-.text-section h2,
-.text-section h3 {
-  margin-top: 32px;
-  margin-bottom: 16px;
-  font-size: 20px;
-  font-weight: bold;
+
+.color_link,
+.color_link:visited,
+.color_link:hover,
+.color_link:active {
+  color: rgb(225, 0, 255);
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
 }
-
-
