@@ -26,7 +26,15 @@ img {
   image-rendering: pixelated;
 }
 
+
+
 /* Classes */
+
+.lista_desplegada {
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+}
 
 /* Audio */
 
