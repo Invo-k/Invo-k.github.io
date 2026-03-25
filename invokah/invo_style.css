@@ -31,9 +31,18 @@ img {
 /* Classes */
 
 .lista_desplegada {
+  background-color:aquamarine;
+  align-self: center;
   align-items: center;
   text-align: center;
-  width: fit-content;
+}
+
+.up_button{
+  color: blueviolet;
+}
+
+.portada{
+  background-color: aquamarine;
 }
 
 /* Audio */
