@@ -176,3 +176,16 @@ img {
   max-width: 666px;             /* ancho máximo del texto para buena lectura */
   text-align: center;             /* alineación real a la izquierda */
 }
+
+.glitch_secret_h1-section{
+  font-family: 'Rubik Glitch', cursive; /* fuente pixel-art legible */
+  font-size: 33px;              /* tamaño de letra cómodo de leer */
+  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
+  color: black; 
+
+  margin: 6px auto;            /* separación vertical y centrado */
+  padding: 0 20px;              /* espacio interno a los lados */
+
+  max-width: 6666px;             /* ancho máximo del texto para buena lectura */
+  text-align: center;             /* alineación real a la izquierda */
+}
