@@ -16,7 +16,7 @@ body {
 .color_link:hover,
 .color_link:active {
   color: yellow;
-  font-family: 'Press Start 2P'
+  font-family: 'Press Start 2P';
   text-decoration: none;
   font-size: 16px;
   text-align: center;
