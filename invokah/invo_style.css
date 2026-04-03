@@ -1,10 +1,13 @@
 /* General */
 body {
+  margin: 0;
   background-color: AntiqueWhite;
   color: black;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', sans-serif, cursive;
   text-align: left;
 }
+
+/* Text */
 
 h1 {
   font-size: 48px;
@@ -17,6 +20,58 @@ p {
   margin: 20px;
 }
 
+
+/* Containers */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 755px;
+}
+
+/* Superior Classes */
+
+.portada{
+  background-color: blueviolet;
+  padding: 15px;
+}
+
+.lista_desplegada {
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+.hearder_buttons,
+.hearder_buttons:visited,
+.hearder_buttons:hover{
+  transition: color 0.3s ease;
+  color: white;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  margin: 0px 30px;
+}
+.hearder_buttons:active {
+  transition: all 0.3s ease;
+  color: #64ff49;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(11, 0, 22);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 80px;
+  font-size: 12px;
+}
+
+.p_footer {
+  font-size: 9px;
+}
+
 /* Images */
 
 img {
@@ -24,25 +79,6 @@ img {
   margin: 30px auto 0 auto;
   width: 400px;
   image-rendering: pixelated;
-}
-
-
-
-/* Classes */
-
-.lista_desplegada {
-  background-color:aquamarine;
-  align-self: center;
-  align-items: center;
-  text-align: center;
-}
-
-.up_button{
-  color: blueviolet;
-}
-
-.portada{
-  background-color: aquamarine;
 }
 
 /* Audio */
@@ -113,10 +149,11 @@ img {
   color: yellow;
 }
 
+/* General Text */
 
 .text-section {
-  font-family: 'Share Tech Mono', monospace; /* fuente pixel-art legible */
-  font-size: 12px;              /* tamaño de letra cómodo de leer */
+  font-family: 'Share Tech Mono', sans-serif, cursive; /* fuente pixel-art legible */
+  font-size: 14px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
   color: black;
 
@@ -127,17 +164,45 @@ img {
   text-align: left;             /* alineación real a la izquierda */
 }
 
+.text-section h1 {
+  font-family: 'Press Start 2P', sans-serif, cursive;
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.text-section h2 {
+  font-family: 'Press Start 2P', sans-serif, cursive;
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
 /* Ajuste de párrafos */
 .text-section p {
   margin-bottom: 24px;          /* espacio entre párrafos */
+  text-align: left;
 }
 
-
+/* Links*/
 .color_link,
-.color_link:visited,
-.color_link:hover,
-.color_link:active {
+.color_link:visited{
+  transition: color 0.2s ease;
+  color: rgb(0, 0, 0);
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+}
+.color_link:hover{
+  transition: color 0.2s ease;
   color: rgb(225, 0, 255);
+}
+.color_link:active {
+  transition: color 0.1s ease;
+  color: #64ff49;
   font-family: 'Press Start 2P';
   text-decoration: none;
   font-size: 12px;

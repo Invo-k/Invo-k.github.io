@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: #64ff49;  /* verde */
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', sans-serif, cursive;
   text-align: left;
 }
 
@@ -10,17 +10,25 @@ body {
   text-align: center;
 }
 
+/* Buttons */
 
 .color_link,
 .color_link:visited,
 .color_link:hover,
 .color_link:active {
-  color: yellow;
-  font-family: 'Press Start 2P';
+  color: white;
+  font-family: 'Press Start 2P', sans-serif, cursive;
   text-decoration: none;
   font-size: 16px;
   text-align: center;
 }
+
+a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+/* TEXT */
 
 h1 {
   font-size: 48px;
@@ -33,6 +41,8 @@ p {
   margin: 20px;
 }
 
+/* Image styling */
+
 img {
   display: block;
   margin: 30px auto 0 auto;
@@ -40,6 +50,7 @@ img {
   image-rendering: pixelated;
 }
 
+/* Audio styling */
 .audio-container {
   margin-top: 40px;
   text-align: center;
@@ -61,6 +72,7 @@ img {
   margin-top: 8px;
   color: #ccc;
 }
+
 
 /* Lightbox base */
 #lightbox {
@@ -109,9 +121,10 @@ img {
   color: #64ff49;
 }
 
+/* Texto principal */
 
 .text-section {
-  font-family: 'Share Tech Mono', monospace; /* fuente pixel-art legible */
+  font-family: 'Share Tech Mono', sans-serif, monospace; /* fuente pixel-art legible */
   font-size: 12px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
   color: #64ff49;  /* verde */
@@ -138,7 +151,7 @@ img {
 }
 
 .secret_text-section {
-  font-family: 'Share Tech Mono', monospace; /* fuente pixel-art legible */
+  font-family: 'Share Tech Mono', sans-serif, monospace; /* fuente pixel-art legible */
   font-size: 12px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
   color: black; 
@@ -165,10 +178,10 @@ img {
 }
 
 .glitch_secret_text-section{
-  font-family: 'Rubik Glitch', cursive; /* fuente pixel-art legible */
+  font-family: 'Rubik Glitch', sans-serif, cursive; /* fuente pixel-art legible */
   font-size: 12px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
-  color: black; 
+  color: black;
 
   margin: 6px auto;            /* separación vertical y centrado */
   padding: 0 20px;              /* espacio interno a los lados */
@@ -178,7 +191,7 @@ img {
 }
 
 .glitch_secret_h1-section{
-  font-family: 'Rubik Glitch', cursive; /* fuente pixel-art legible */
+  font-family: 'Rubik Glitch', sans-serif, cursive; /* fuente pixel-art legible */
   font-size: 33px;              /* tamaño de letra cómodo de leer */
   line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
   color: black; 
