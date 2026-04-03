@@ -10,9 +10,11 @@ body {
 /* Text */
 
 h1 {
+  color: black;
   font-size: 48px;
   letter-spacing: 4px;
   text-align: center;
+  height: 20px;
 }
 
 p {
