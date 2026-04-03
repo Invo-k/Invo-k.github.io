@@ -154,13 +154,13 @@ img {
 .text-section {
   font-family: 'Share Tech Mono', sans-serif, cursive; /* fuente pixel-art legible */
   font-size: 14px;              /* tamaño de letra cómodo de leer */
-  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
+  line-height: 1.3;             /* espacio entre líneas para lectura adecuada */
   color: black;
 
   margin: 20px auto;            /* separación vertical y centrado */
   padding: 0 20px;              /* espacio interno a los lados */
 
-  max-width: 680px;             /* ancho máximo del texto para buena lectura */
+  max-width: 720px;             /* ancho máximo del texto para buena lectura */
   text-align: left;             /* alineación real a la izquierda */
 }
 
@@ -184,6 +184,15 @@ img {
 .text-section p {
   margin-bottom: 24px;          /* espacio entre párrafos */
   text-align: left;
+}
+
+.question {
+  font-family: 'Press Start 2P', sans-serif, cursive;
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  height: 0;
 }
 
 /* Links*/
