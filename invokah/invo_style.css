@@ -45,10 +45,16 @@ p {
 }
 
 .hearder_buttons,
-.hearder_buttons:visited,
-.hearder_buttons:hover{
+.hearder_buttons:visited{
   transition: color 0.3s ease;
   color: white;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  margin: 0px 30px;
+}
+.hearder_buttons:hover{
+  transition: color 0.3s ease;
+  color: rgb(255, 183, 89);
   font-family: 'Press Start 2P';
   text-decoration: none;
   margin: 0px 30px;
@@ -85,7 +91,7 @@ img {
 
 .carousel{
   margin: 10px auto;
-  width: 90%;
+  width: 100%;
   display: flex;
   overflow-x: auto;
 }
@@ -154,16 +160,17 @@ img {
 }
 
 #lightbox-img {
-  max-width: none;
-  max-height: none;
-  width: 80vw;    
+  max-width: 90vw;
+  max-height: 90vh;
+
+  width: auto;
   height: auto;
+
   image-rendering: pixelated;
 
-  transform: scale(0.8);
+  transform: scale(0.95);
   transition: transform 0.3s ease;
 }
-
 #lightbox.active {
   opacity: 1;
   pointer-events: auto;
@@ -250,3 +257,33 @@ img {
   font-size: 12px;
   text-align: center;
 }
+
+.video_description{
+  text-align: center;
+  font-size: 6px;
+  color: #303030a1;
+  margin: 1%;
+}
+
+.politica,
+.politica:visited{
+  transition: color 0.2s ease;
+  color: #303030a1;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  font-size: 6px;
+  text-decoration: underline;
+}
+.politica:hover{
+  transition: color 0.2s ease;
+  color: #9f00b4a1;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  font-size: 6px;
+  text-decoration: underline;
+}
+.politica:active {
+  color: #26a100a1;
+  text-decoration: underline;
+}
+
