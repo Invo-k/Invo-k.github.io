@@ -28,7 +28,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 755px;
 }
 
 /* Superior Classes */
@@ -74,6 +73,9 @@ p {
   padding: 1rem;
   margin-top: 50px;
   font-size: 12px;
+  
+  display: flex;
+  flex-direction: column;
 }
 
 .p_footer {
