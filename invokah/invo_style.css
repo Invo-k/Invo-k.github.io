@@ -105,7 +105,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  animation: spin 36s infinite linear;
+  animation: spin 64s infinite linear;
   padding-right: 1em;
 }
 
@@ -160,7 +160,7 @@ img {
   height: auto;
   image-rendering: pixelated;
 
-  transform: scale(0.9);
+  transform: scale(0.8);
   transition: transform 0.3s ease;
 }
 
