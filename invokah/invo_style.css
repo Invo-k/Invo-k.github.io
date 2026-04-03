@@ -83,6 +83,37 @@ img {
   image-rendering: pixelated;
 }
 
+.carousel{
+  margin: 10px auto;
+  width: 90%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel img {
+  height: 250px;
+  width: auto;
+  object-fit: contain;
+}
+
+.group_images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  animation: spin 36s infinite linear;
+  padding-right: 1em;
+}
+
+@keyframes spin {
+  from {translate: 0;}
+  to { translate: -100%;}
+}
+
 /* Audio */
 
 .audio-container {
@@ -129,7 +160,7 @@ img {
   height: auto;
   image-rendering: pixelated;
 
-  transform: scale(0.8);
+  transform: scale(0.9);
   transition: transform 0.3s ease;
 }
 

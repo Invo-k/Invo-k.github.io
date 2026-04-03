@@ -27,6 +27,7 @@
         </a>
         <a href="https://discord.gg/ja2zNhZQ5w" class="hearder_buttons">
           DISCORD
+        </a>
         <a href="../invo_help/index.html" class="hearder_buttons">
           Q&A/CONTACT
         </a>
@@ -34,8 +35,6 @@
       </nav>
     </div>
   </header>
-
-  </nav>
 
   <section class="container">
   
@@ -66,11 +65,42 @@
     </div>
   </section>
 
+  <div class="carousel"> 
+    <div class="group_images">
+        <img alt="Collab Invo con Tenna" src="../assets/fanarts/invo_tenna.jpeg" class="zoom">
+        <img alt="InvoChikito siendo toda una mente criminal" src="../assets/fanarts/invochikito.jpg" class="zoom">
+        <img alt="Invo versión detective para el Invotober 2025" src="../assets/fanarts/invodetective.jpg" class="zoom">
+        <img alt="Invo disfrazado de Wooper con un Corazon" src="../assets/fanarts/invowooper.png" class="zoom">
+        <img alt="Invo tomando Awita" src="../assets/fanarts/InvoPorro.jpg" class="zoom">
+        <img alt="Conjunto de Fanarts 2025 de Invokah" src="../assets/fanarts/00_Conjunto de Fanarts_2025.jpg" class="zoom">
+        <img alt="Conjunto de Fanarts 2024 de Invokah" src="../assets/fanarts/00_Conjunto de Fanarts_2024.jpg" class="zoom">
+        <img alt="Invo Disfrazado de Wooper versión Pijama" src="../assets/fanarts/wooperfraz.png" class="zoom">
+        <img alt="Nubert My Beloved" src="../assets/fanarts/nuberto.png" class="zoom">
+        <img alt="MIKE, DALE AL VIDEO" src="../assets/fanarts/INVOMIKE.jpg" class="zoom">
+        <img alt="Invo en un stream tranquilo" src="../assets/fanarts/pium pium.png" class="zoom">
+        <img alt="La forma definitiva" src="../assets/fanarts/triangle.jpg" class="zoom">
+        <img alt="Compilacion de Invochikitos" src="../assets/fanarts/invochikitocompilation.png" class="zoom">
+        <img alt="Una recopilación de todas las transformaciones del Invo v01" src="../assets/fanarts/00_InvoFanartVh9Definitivo.jpg" class="zoom">
+        <img alt="Invo reclutando para su secta" src="../assets/fanarts/ejercito wooper.jpg" class="zoom">
+        <img alt="Lost Boy" src="../assets/fanarts/guitarrra.jpg" class="zoom">
+        <img alt="Corason" src="../assets/fanarts/Invokah_art.png" class="zoom">
+      </div>
+    <div aria-hidden="true" class="group_images">
+    </div>
+  </div>
+
+
   <footer class="footer">
     <p class="p_footer">© Invokah 2019-2026. All rights reserved.</p>
 
-</body>
+
 <!-- Lightbox -->
+<div id="lightbox">
+  <span id="close-lightbox">&times;</span>
+  <img id="lightbox-img" src="" alt="Imagen ampliada">
+</div>
+
+</body>
 
 <script>
   const lightbox = document.getElementById('lightbox');
@@ -101,5 +131,35 @@
       lightbox.classList.remove('active');
     }
   });
+
+function shuffleCarousel() {
+
+  const groups = document.querySelectorAll(".group_images");
+  const firstGroup = groups[0];
+  const secondGroup = groups[1];
+
+  const images = Array.from(firstGroup.children);
+
+  // Algoritmo Fisher-Yates (mezcla real)
+  for (let i = images.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [images[i], images[j]] = [images[j], images[i]];
+  }
+
+  // Vaciar contenedor
+  firstGroup.innerHTML = "";
+
+  // Volver a insertar mezcladas
+  images.forEach(img => {
+    firstGroup.appendChild(img);
+  });
+
+  // Copiar orden al segundo grupo
+  secondGroup.innerHTML = firstGroup.innerHTML;
+
+}
+
+shuffleCarousel();
+
 </script>
 </html>
