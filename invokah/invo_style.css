@@ -289,3 +289,28 @@ img {
   text-decoration: underline;
 }
 
+.text_link,
+.text_link:visited{
+  color: black;
+  font-family: 'Share Tech Mono', sans-serif, cursive;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3;
+  text-decoration: underline;
+}
+.text_link:hover{
+  color: blueviolet;
+  font-family: 'Share Tech Mono', sans-serif, cursive;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3;  
+  text-decoration: underline;
+}
+.text_link:active {
+  color:  #64ff49;
+  font-family: 'Share Tech Mono', sans-serif, cursive;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3;  
+  text-decoration: underline;
+}
