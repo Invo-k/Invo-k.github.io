@@ -84,6 +84,7 @@ p {
   
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .p_footer {
