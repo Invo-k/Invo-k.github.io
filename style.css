@@ -151,21 +151,21 @@ img {
 }
 
 .secret_text-section {
-  font-family: 'Share Tech Mono', sans-serif, monospace; /* fuente pixel-art legible */
-  font-size: 12px;              /* tamaño de letra cómodo de leer */
-  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
+  font-family: 'Share Tech Mono', sans-serif, monospace;
+  font-size: 12px;            
+  line-height: 1.6;             
   color: black; 
 
-  margin: 20px auto;            /* separación vertical y centrado */
-  padding: 0 20px;              /* espacio interno a los lados */
+  margin: 20px auto;            
+  padding: 0 20px;         
 
-  max-width: 680px;             /* ancho máximo del texto para buena lectura */
-  text-align: left;             /* alineación real a la izquierda */
+  max-width: 680px;             
+  text-align: left;             
 }
 
 /* Ajuste de párrafos */
 .secret_text-section p {
-  margin-bottom: 24px;          /* espacio entre párrafos */
+  margin-bottom: 24px;          
 }
 
 /* Títulos dentro del texto */
@@ -178,55 +178,67 @@ img {
 }
 
 .glitch_secret_text-section{
-  font-family: 'Rubik Glitch', sans-serif, cursive; /* fuente pixel-art legible */
-  font-size: 12px;              /* tamaño de letra cómodo de leer */
-  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
+  font-family: 'Rubik Glitch', sans-serif, cursive;
+  font-size: 12px;       
+  line-height: 1.6;           
   color: black;
 
-  margin: 6px auto;            /* separación vertical y centrado */
-  padding: 0 20px;              /* espacio interno a los lados */
+  margin: 6px auto;    
+  padding: 0 20px;  
 
-  max-width: 666px;             /* ancho máximo del texto para buena lectura */
-  text-align: center;             /* alineación real a la izquierda */
+  max-width: 666px;           
+  text-align: center;            
 }
+
 
 .glitch_secret_h1-section{
-  font-family: 'Rubik Glitch', sans-serif, cursive; /* fuente pixel-art legible */
-  font-size: 33px;              /* tamaño de letra cómodo de leer */
-  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
+  font-family: 'Rubik Glitch', sans-serif, cursive;
+  font-size: 33px;          
+  line-height: 1.6;            
   color: black; 
 
-  margin: 6px auto;            /* separación vertical y centrado */
-  padding: 0 20px;              /* espacio interno a los lados */
+  margin: 6px auto;        
+  padding: 0 20px;             
 
-  max-width: 6666px;             /* ancho máximo del texto para buena lectura */
-  text-align: center;             /* alineación real a la izquierda */
+  max-width: 6666px;         
+  text-align: center;          
 }
+
+
 
 .artikle {
   background-color: black;
 
-  font-family: 'Share Tech Mono', sans-serif, monospace; /* fuente pixel-art legible */
-  font-size: 12px;              /* tamaño de letra cómodo de leer */
-  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
-  color: #64ff49;  /* verde */
+  font-family: 'Share Tech Mono', sans-serif, monospace; 
+  font-size: 12px;             
+  line-height: 1.6;            
+  color: #64ff49;  
 
-  margin: 20px auto;            /* separación vertical y centrado */
-  padding: 0 20px;              /* espacio interno a los lados */
+  margin: 20px auto;            
+  padding: 0 20px;            
 
-  max-width: 680px;             /* ancho máximo del texto para buena lectura */
-  text-align: left;             /* alineación real a la izquierda */
+  max-width: 680px;          
+  text-align: left;          
   border: green 5px solid;
 }
 
 .artikle p {
-  margin-bottom: 24px;          /* espacio entre párrafos */
-  margin-top: auto;
+  margin-bottom: 24px;      
 }
 
 .artikle h1 {
   margin-top: 32px;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
+}
+
+.glitch_secret_text-section_link,
+.glitch_secret_text-section_link:visited,
+.glitch_secret_text-section_link:hover,
+.glitch_secret_text-section:active {
+  font-family: 'Rubik Glitch', sans-serif, cursive;
+  color: black;
+  text-decoration: none;
   text-align: center;
 }
