@@ -57,14 +57,13 @@ p {
   color: white;
   font-family: 'Press Start 2P';
   text-decoration: none;
-  margin: 0px 30px;
+  margin: 0px 6px;
 }
 .header_buttons:hover{
   transition: color 0.3s ease;
   color: rgb(255, 183, 89);
   font-family: 'Press Start 2P';
   text-decoration: none;
-  margin: 0px 30px;
 }
 .header_buttons:active {
   transition: all 0.3s ease;
