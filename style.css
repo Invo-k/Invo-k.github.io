@@ -218,3 +218,15 @@ img {
   text-align: left;             /* alineación real a la izquierda */
   border: green 5px solid;
 }
+
+.artikle p {
+  margin-bottom: 24px;          /* espacio entre párrafos */
+  margin-top: auto;
+}
+
+.artikle h1 {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
