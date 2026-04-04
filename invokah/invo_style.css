@@ -351,4 +351,11 @@ img {
   width: 400px;
   height: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .team_member_image {
+    width: 200px;
+  }
 }
