@@ -255,6 +255,18 @@ img {
   color: #64ff49;
 }
 
+.video {
+  width: 90%;
+  max-width: 720px;
+  margin: 10px auto;
+}
+
+.video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+}
+
 .video_description{
   text-align: center;
   font-size: 6px;
