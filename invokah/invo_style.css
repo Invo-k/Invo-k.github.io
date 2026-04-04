@@ -51,28 +51,25 @@ p {
   flex-wrap: nowrap;
 }
 
-.hearder_buttons,
-.hearder_buttons:visited{
+.header_buttons,
+.header_buttons:visited{
   transition: color 0.3s ease;
   color: white;
   font-family: 'Press Start 2P';
-  font-size: clamp(16px, 2vw, 12px);
   text-decoration: none;
   margin: 0px 30px;
 }
-.hearder_buttons:hover{
+.header_buttons:hover{
   transition: color 0.3s ease;
   color: rgb(255, 183, 89);
   font-family: 'Press Start 2P';
-  font-size: clamp(16px, 2vw, 12px);
   text-decoration: none;
   margin: 0px 30px;
 }
-.hearder_buttons:active {
+.header_buttons:active {
   transition: all 0.3s ease;
   color: #64ff49;
   font-family: 'Press Start 2P';
-  font-size: clamp(16px, 2vw, 12px);
   text-decoration: none;
   text-align: center;
 }
@@ -98,8 +95,8 @@ p {
 img {
   display: block;
   margin: 30px auto 0 auto;
-  width: 400px;
-  image-rendering: pixelated;
+  max-width: 100%;
+  height: auto;
 }
 
 .carousel{
