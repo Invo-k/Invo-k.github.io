@@ -43,11 +43,20 @@ p {
   list-style-type: none;
 }
 
+.lista_desplegada nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
 .hearder_buttons,
 .hearder_buttons:visited{
   transition: color 0.3s ease;
   color: white;
   font-family: 'Press Start 2P';
+  font-size: clamp(16px, 2vw, 12px);
   text-decoration: none;
   margin: 0px 30px;
 }
@@ -55,6 +64,7 @@ p {
   transition: color 0.3s ease;
   color: rgb(255, 183, 89);
   font-family: 'Press Start 2P';
+  font-size: clamp(16px, 2vw, 12px);
   text-decoration: none;
   margin: 0px 30px;
 }
@@ -62,6 +72,7 @@ p {
   transition: all 0.3s ease;
   color: #64ff49;
   font-family: 'Press Start 2P';
+  font-size: clamp(16px, 2vw, 12px);
   text-decoration: none;
   text-align: center;
 }
