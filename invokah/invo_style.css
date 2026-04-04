@@ -86,6 +86,14 @@ p {
   }
 }
 
+@media (max-width: 768px) {
+  .footer {
+    width: auto;
+    max-width: 100%;
+    margin: 50px auto 0;
+  }
+}
+
 .footer {
   background-color: rgb(11, 0, 22);
   color: white;
