@@ -339,3 +339,12 @@ img {
   font-size: 16px;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+
+  .hearder_buttons {
+    font-size: 8px;
+    margin: 0 8px;
+  }
+
+}
