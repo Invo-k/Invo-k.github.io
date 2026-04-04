@@ -14,7 +14,7 @@ h1 {
   font-size: 48px;
   letter-spacing: 4px;
   text-align: center;
-  height: 5px;
+  margin: 5px 0;
 }
 
 p {
@@ -56,6 +56,7 @@ p {
   transition: color 0.3s ease;
   color: white;
   font-family: 'Press Start 2P';
+  font-size: clamp(8px, 2.5vw, 16px);
   text-decoration: none;
   margin: 0px 6px;
 }
@@ -236,6 +237,11 @@ img {
   text-align: left;
 }
 
+.text-section img{
+  display: block;
+  margin: 20px auto; 
+}
+
 .question {
   font-family: 'Press Start 2P', sans-serif, cursive;
   color: blueviolet;
@@ -338,13 +344,4 @@ img {
   text-decoration: none;
   font-size: 16px;
   text-align: center;
-}
-
-@media (max-width: 600px) {
-
-  .hearder_buttons {
-    font-size: 8px;
-    margin: 0 8px;
-  }
-
 }
