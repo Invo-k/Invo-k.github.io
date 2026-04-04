@@ -102,7 +102,6 @@ img {
 
 .carousel{
   margin: 10px auto;
-  width: 100%;
   display: flex;
   overflow-x: auto;
 }
