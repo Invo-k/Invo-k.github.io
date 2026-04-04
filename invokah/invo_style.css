@@ -14,7 +14,7 @@ h1 {
   font-size: 48px;
   letter-spacing: 4px;
   text-align: center;
-  height: 20px;
+  height: 5px;
 }
 
 p {
@@ -113,7 +113,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  animation: spin 64s infinite linear;
+  animation: spin 100s infinite linear;
   padding-right: 1em;
 }
 
@@ -218,6 +218,7 @@ img {
   color: blueviolet;
   font-weight: bold;
   font-size: 16px;
+  margin-top: 30px;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -242,10 +243,8 @@ img {
 .color_link:visited{
   transition: color 0.2s ease;
   color: rgb(0, 0, 0);
-  font-family: 'Press Start 2P';
-  text-decoration: none;
-  font-size: 12px;
-  text-align: center;
+  font-family: 'Share Tech Mono', sans-serif, cursive;
+  text-decoration: underline;
 }
 .color_link:hover{
   transition: color 0.2s ease;
@@ -254,10 +253,6 @@ img {
 .color_link:active {
   transition: color 0.1s ease;
   color: #64ff49;
-  font-family: 'Press Start 2P';
-  text-decoration: none;
-  font-size: 12px;
-  text-align: center;
 }
 
 .video_description{
@@ -313,4 +308,15 @@ img {
   font-size: 20px;
   line-height: 1.3;  
   text-decoration: underline;
+}
+
+.team_member,
+.team_member:visited,
+.team_member:hover,
+.team_member:active {
+  color: blueviolet;
+  font-family: 'Press Start 2P', sans-serif, cursive;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
 }
