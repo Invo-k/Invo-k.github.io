@@ -58,7 +58,7 @@ p {
   font-family: 'Press Start 2P';
   font-size: clamp(8px, 2.5vw, 16px);
   text-decoration: none;
-  margin: 0px 6px;
+  margin: 0px clamp(1px, 2.5vw, 6px);
 }
 .header_buttons:hover{
   transition: color 0.3s ease;
