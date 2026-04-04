@@ -100,6 +100,7 @@ p {
 
 .p_footer {
   font-size: 9px;
+  text-align: center;
 }
 
 /* Images */
@@ -112,7 +113,6 @@ img {
 }
 
 .carousel{
-  margin: 10px auto;
   width: 100%;
   display: flex;
   overflow: hidden;
