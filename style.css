@@ -202,3 +202,19 @@ img {
   max-width: 6666px;             /* ancho máximo del texto para buena lectura */
   text-align: center;             /* alineación real a la izquierda */
 }
+
+.artikle {
+  background-color: black;
+
+  font-family: 'Share Tech Mono', sans-serif, monospace; /* fuente pixel-art legible */
+  font-size: 12px;              /* tamaño de letra cómodo de leer */
+  line-height: 1.6;             /* espacio entre líneas para lectura adecuada */
+  color: #64ff49;  /* verde */
+
+  margin: 20px auto;            /* separación vertical y centrado */
+  padding: 0 20px;              /* espacio interno a los lados */
+
+  max-width: 680px;             /* ancho máximo del texto para buena lectura */
+  text-align: left;             /* alineación real a la izquierda */
+  border: green 5px solid;
+}
