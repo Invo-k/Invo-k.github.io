@@ -454,4 +454,8 @@ img {
   .text-section p {
     margin: 16px 0;
   }
+
+  .question {
+    margin-top: 50px;
+  }
 }
