@@ -24,12 +24,11 @@
   <link rel="stylesheet" href="../style.css">
 </head>
 
-<body>
+<body style=" margin: 0; height: 100vh; display: flex; justify-content: center; align-items: center; background: black;">
+
     <section class="detektor">
-        <h2>DETEKTOR</h2>
-    
+        <h2>DETEKTOR</h2>    
         <input type="text" id="inputTexto" autocomplete="off" autocorrect="off" onkeypress="if(event.key==='Enter') redirigir()">
-        
         <br>
         <button onclick="redirigir()">🔍</button>
     </section>
@@ -37,6 +36,7 @@
 </body>
   
 <script>
+    
     // Todas las posibles rutas de busqueda de comandos
     const rutas = {
     help: "invokah/help",
@@ -61,4 +61,5 @@
         window.location.href = "/404";
     }
     }
+    
 </script>
