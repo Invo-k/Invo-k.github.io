@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+  
+  <meta charset="UTF-8">
+  <meta name = "author" content = "...">
+  <meta name="description" content="Hi..."> 
+  <meta name="keywords" content="Invokah, Invo, Little Detektiv, Detektiv, Shaila, Shaila Spark, R, Roger, Layla">
+
+  <meta name=" robots" content = "index">
+  <meta name = "format-detection" content = "telephone=yes">
+  <meta name = "apple-mobile-web-app-capable" content = "yes">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+  <title>Detektor</title>
+  <link rel="icon" sizes="32x32" href="assets/favicon/olddetektivicon.ico">
+
+  <!-- Conexión con CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <section class="detektor">
+        <h2>DETEKTOR</h2>
+    
+        <input type="text" id="inputTexto" onkeypress="if(event.key==='Enter') redirigir()">
+        
+        <br>
+        <button onclick="redirigir()">🔍</button>
+    </section>
+
+</body>
+  
+<script>
+    // Todas las posibles rutas de busqueda de comandos
+    const rutas = {
+    help: "invokah/help",
+    about: "invokah/about",
+    invokah: "invokah",
+    project: "invokah/projects",
+    "little detektiv": "littledetektiv",
+    detektiv: "detektiv",
+    shaila: "shaila",
+    "shaila spark": "shaila",
+    roger: "r",
+    r: "r",
+    k: "k"
+    };
+
+    function redirigir() {
+    const codigo = document.getElementById("inputTexto").value.trim().toLowerCase();
+
+    if (codigo in rutas) {
+        window.location.href = "/" + rutas[codigo];
+    } else {
+        window.location.href = "/404";
+    }
+    }
+</script>

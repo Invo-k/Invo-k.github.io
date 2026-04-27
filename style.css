@@ -242,3 +242,53 @@ img {
   text-decoration: none;
   text-align: center;
 }
+
+.detektor {
+  font-family: 'Press Start 2P', sans-serif, monospace;
+  font-size: 32px;             
+  line-height: 1.6;            
+  color: #64ff49;  
+
+  margin: 20px auto;            
+  padding: 0 20px;            
+
+  max-width: 680px;          
+  text-align: center;
+}
+
+.detektor h2 {
+  font-family: 'Press Start 2P', sans-serif, cursive;
+  color:  #64ff49;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+
+.detektor input{
+  background-color: transparent;
+  color: #64ff49;
+  font-family: 'Press Start 2P', sans-serif, cursive;
+  font-size: 16px;
+  border: 2px solid #64ff49;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.detektor input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #64ff49;
+}
+
+.detektor button{
+  background-color: transparent;
+  color: #64ff49;
+  font-family: 'Press Start 2P', sans-serif, cursive;
+  font-size: 16px;
+  border: 2px solid #64ff49;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
