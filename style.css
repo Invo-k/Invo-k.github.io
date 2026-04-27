@@ -277,9 +277,25 @@ img {
   margin-bottom: 20px;
 }
 
-.detektor input:focus {
+.detektor input:focus,
+.detektor input:hover,
+.detektor input:active {
   outline: none;
+  border-color: #64ff49;
   box-shadow: 0 0 5px #64ff49;
+}
+
+.detektor input::placeholder {
+  color: #64ff49;
+  opacity: 0.7;
+}
+
+.detektor input:disabled {
+  background-color: transparent;
+  border-color: #64ff49;
+  color: #64ff49;
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .detektor button{
