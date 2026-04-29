@@ -190,6 +190,22 @@ img {
   text-align: center;            
 }
 
+.glich_secret_text-section a,
+.glich_secret_text-section a:visited,
+.glich_secret_text-section a:hover,
+.glich_secret_text-section a:active {
+  font-family: 'Rubik Glitch', sans-serif, cursive;
+  font-size: 12px;       
+  line-height: 1.6;           
+  color: black;
+
+  margin: 6px auto;    
+  padding: 0 20px;  
+
+  max-width: 666px;           
+  text-align: center;    
+}
+
 
 .glitch_secret_h1-section{
   font-family: 'Rubik Glitch', sans-serif, cursive;
@@ -203,6 +219,7 @@ img {
   max-width: 6666px;         
   text-align: center;          
 }
+
 
 
 
