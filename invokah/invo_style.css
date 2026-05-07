@@ -152,7 +152,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  animation: spin 100s infinite linear;
+  animation: spin 165s infinite linear;
   padding-right: 1em;
 }
 
