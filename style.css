@@ -190,6 +190,25 @@ img {
   text-align: center;            
 }
 
+.glitch_secret_text-section a,
+.glitch_secret_text-section a:active,
+.glitch_secret_text-section a:visited {
+  font-family: 'Rubik Glitch', sans-serif, cursive;
+  font-size: 40px;
+  transition: all 0.3s ease;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+.glitch_secret_text-section a:hover{
+  font-family: 'Rubik Glitch', sans-serif, cursive;
+  transition: all 0.3s ease;
+  color: #64ff49;
+  text-decoration: none;
+  text-align: center;
+}
+
+
 
 .glitch_secret_h1-section{
   font-family: 'Rubik Glitch', sans-serif, cursive;
